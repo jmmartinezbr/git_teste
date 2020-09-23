@@ -1,1 +1,53 @@
-Olá mundo
+Olá mundo,
+
+Esta é a aula de Git
+
+Navegando pela linha de Comando
+
+> pwd
+Indica o path Pagina_atual
+
+> cd diretório
+Abre o diretório indicado
+
+> mkdir
+criar pasta dentro do diretório atual
+
+>  rm -rf ./.git
+rm remove
+-rf força o processo de delete
+./ indica ser ser um diretório dentro da pasta atual, sendo seguido no nome da pasta. Nessa caso foi colocado a pasta .Git
+
+
+
+Começando a usar:
+
+$ git config --global user.name "Nome usuário"
+
+$ git config --global user.email "E-mail do usuário"
+
+
+
+
+Utilizando para criar os versionamentos
+
+$ git add .:
+Adidiona todos os arquivos da pasta.
+Se preferir um arquivo especifico, adicione o nome do arquivo.
+
+$ commit -m "mensagem":
+
+
+$ commit -am
+
+
+
+
+Verificando as mudanças e area de trabalho
+$ git config list
+
+
+$ git status:
+
+
+$ git log:
